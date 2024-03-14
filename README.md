@@ -39,9 +39,13 @@ Installation and assembly takes place automatically with the bat file "super_ins
 
 The exception is the "SUPER" models, because downloading them takes a long time. The lines for downloading models are commented as "ECHO", if you want to download them together with the installation of the interface itself, just uncomment the lines starting with "ECHO" (all other "echo" commands are written in lowercase).
 
+---
+
 Приложен отдельный файл для скачивания моделей - "supir_models_download.bat". Поместите его рядом с файлом "supir_install.bat" и запустите отдельно, т.к. он учитывает структуру каталогов относительно своего расположения.
 
-Attached is a separate file for downloading models - "super_models_download.bat". Place it next to the file "sape_install.bat" and run it separately, because it takes into account the directory structure relative to its location.
+> Attached is a separate file for downloading models - "super_models_download.bat". Place it next to the file "sape_install.bat" and run it separately, because it takes into account the directory structure relative to its location.
+
+---
 
 Если у вас уже есть скачанные модели:
 
@@ -51,17 +55,19 @@ Attached is a separate file for downloading models - "super_models_download.bat"
 
 ... то просто поместите их в папку "ComfyUI\models\checkpoints" т.к. нода "SUPIR_Upscale" будет искать их там!
 
-If you already have downloaded models:
+> If you already have downloaded models:
 
-- SUPER-v0.kt <--- (for testing, you can download only this model + sd_xl_base_1.0_0.9vae.safetensors)
-- SUPER-v 0Q.ckpt
-- sd_xl_base_1.0_0.9vae.safetensors
+> - SUPER-v0.kt <--- (for testing, you can download only this model + sd_xl_base_1.0_0.9vae.safetensors)
+> - SUPER-v 0Q.ckpt
+> - sd_xl_base_1.0_0.9vae.safetensors
 
-... then just put them in the folder "Config\models\checkpoints" because "SUPER_Upscale" will look for them there!
+> ... then just put them in the folder "Config\models\checkpoints" because "SUPER_Upscale" will look for them there!
+
+---
 
 Результаты установки из этого bat-файла тестировались на приложенных файлах "example.jpg" и "supir_workflow.json" (папка "examples"), результат представлен файлом "result.jpg" (папка "examples") и является результатом тестирования интерфейса, проведенного после установки этим инсталлятором. Время генерации на карте "NVIDIA GeForce RTX 2080 Ti (TU102)" и системной памяти 64Gb (процессор "Intel Core i9-9940X") составило 1396 секунд (scale_by=2).
 
-The installation results from this bat file were tested on the attached "example.jpg" and "super_workflow.json" (folder "examples"), the result is represented by the file "result.jpg" (folder "examples") and is the result of interface testing after installation by this installer. The generation time on the NVIDIA GeForce RTX 2080 Ti (TU 102) card and 64Gb system memory (Intel Core i9-9940X processor) was 1396 seconds (scale_by=2).
+> The installation results from this bat file were tested on the attached "example.jpg" and "super_workflow.json" (folder "examples"), the result is represented by the file "result.jpg" (folder "examples") and is the result of interface testing after installation by this installer. The generation time on the NVIDIA GeForce RTX 2080 Ti (TU 102) card and 64Gb system memory (Intel Core i9-9940X processor) was 1396 seconds (scale_by=2).
 
 ---
 
@@ -79,7 +85,7 @@ The installation results from this bat file were tested on the attached "example
 
 > Launching the browser after the server starts: http://127.0.0.1:8188
 
-Launching the installed interface: "run_webui.bat"
+> Launching the installed interface: "run_webui.bat"
 
 ---
 
