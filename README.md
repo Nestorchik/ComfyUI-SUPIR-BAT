@@ -79,6 +79,8 @@ Launching the installed interface: "run_webui.bat"
 
 After starting the interface, upload the "super_workflow.json" file to "ComfyUI", and the "example" file to the "Load Image" node (from the "examples" folder) for testing.
 
+---
+
 Удачи! )
 Good luck!)
 @srigert
