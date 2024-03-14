@@ -1,9 +1,10 @@
 # ComfyUI-SUPIR-BAT
+
 ---
 
 Установочный BAT-файл для сборки "на лету" текущих git-версий "ComfyUI+SUPIR" для карт "NVIDIA" для ноды версии "v1".
 
-> Installation BAT file for on-the-fly assembly of the current git versions of "ComfyUI+SUPER" for NVIDIA for node  "v1".
+> Installation BAT file for on-the-fly assembly of the current git versions of "ComfyUI+SUPER" for NVIDIA for node "v1".
 
 ---
 
@@ -97,7 +98,7 @@
 
 ---
 
-Результаты установки из этого bat-файла тестировались на приложенных файлах "example.jpg" и "supir_workflow.json" (папка "examples"), результат представлен файлом "result.jpg" (папка "examples") и является результатом тестирования интерфейса, проведенного после установки этим инсталлятором. Время генерации на карте "NVIDIA GeForce RTX 2080 Ti (TU102)" и системной памяти 64Gb (процессор "Intel Core i9-9940X") составило 1396 секунд (scale_by=2).
+Результаты установки из этого bat-файла тестировались на приложенных файлах "example.jpg" и "supir_workflow_v1.json" (папка "examples"), результат представлен файлом "result.jpg" (папка "examples") и является результатом тестирования интерфейса, проведенного после установки этим инсталлятором. Время генерации на карте "NVIDIA GeForce RTX 2080 Ti (TU102)" и системной памяти 64Gb (процессор "Intel Core i9-9940X") составило 1396 секунд (scale_by=2).
 
 > The installation results from this bat file were tested on the attached "example.jpg" and "super_workflow.json" (folder "examples"), the result is represented by the file "result.jpg" (folder "examples") and is the result of interface testing after installation by this installer. The generation time on the NVIDIA GeForce RTX 2080 Ti (TU 102) card and 64Gb system memory (Intel Core i9-9940X processor) was 1396 seconds (scale_by=2).
 
@@ -121,7 +122,7 @@
 
 ---
 
-После старта интерфейса загрузите в "ComfyUI" файл "supir_workflow.json", а в ноду "Load Image" файл "example.jpg" (из папки "examples")для тестирования.
+После старта интерфейса загрузите в "ComfyUI" файл "supir_workflow_v1.json", а в ноду "Load Image" файл "example.jpg" (из папки "examples")для тестирования.
 
 > After starting the interface, upload the "super_workflow.json" file to "ComfyUI", and the "example" file to the "Load Image" node (from the "examples" folder) for testing.
 
