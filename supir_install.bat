@@ -50,7 +50,9 @@ ECHO ==================================
 ECHO echo -----------------------------
 ECHO echo SUPIR models download finish
 ECHO echo -----------------------------
-
+echo ==================================
+echo File "examples\supir_workflow.json" only for "SUPIR_Upacaler" node version "v1"!
+echo After updating the node to version "v2" (installation is done with "git"!), this file may work unpredictably!
 echo ==================================
 echo Starting ComfyUI
 echo ==================================
