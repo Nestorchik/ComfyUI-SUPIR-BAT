@@ -38,7 +38,7 @@
 
 ---
 
-Перед запуском измените значение переменной "python=c:\p31\python.exe" на реальное расположение питона 3.10 версии у вас! GIT-должен быть прописан в PATH!
+Перед запуском измените значение переменной "python=c:\p31\python.exe" в файле "supir_install.bat" на реальное расположение питона 3.10 версии у вас! GIT-должен быть прописан в PATH!
 
 > Before starting, change the value of the variable "python=c:\p31\python.exe" for the real location of python 3.10 version you have! GIT-must be registered in the PATH!
 

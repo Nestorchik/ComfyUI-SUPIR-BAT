@@ -9,7 +9,7 @@ c:\1> git clone https://github.com/Nestorchik/ComfyUI-SUPIR-BAT.git
 
 Запуск инсталляции дистрибутива "ComfyUI+SUPIR+модели" файлом "install_supir.bat".
 
-Перед запуском измените значение переменной "python=c:\p31\python.exe" на реальное расположение питона 3.10 версии у вас! GIT-должен быть прописан в PATH!
+Перед запуском измените значение переменной "python=c:\p31\python.exe" в файле "supir_install.bat" на реальное расположение питона 3.10 версии у вас! GIT-должен быть прописан в PATH!
 
 Specify the path to python 3.10 version! GIT should be in the PATH!
 
