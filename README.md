@@ -67,7 +67,7 @@ The installation results from this bat file were tested on the attached "example
 
 Постарайтесь соблюдать правила, описанные тут: https://t.me/stable_cascade_rus/47/751, приложенный файл "example.jpg" соответствует описанным там правилам, и тестирование проводилось именно на нем. Для ускорения генерации, можете понизить параметр "scale_by" до "1", если надо просто быстро проверить работоспособность сборки, в этом случае время генерации составит 55 секунд (у меня по крайней мере).
 
-Try to follow the rules described here: https://t.me/stable_cascade_rus/47/751 , the attached file is "example.jpg" corresponds to the rules described there, and testing was carried out on it. To speed up the generation, you can lower the "scale_by" parameter to "1" if you just need to quickly check the functionality of the assembly, in this case the generation time will be 55 seconds (at least for me).
+> Try to follow the rules described here: https://t.me/stable_cascade_rus/47/751 , the attached file is "example.jpg" corresponds to the rules described there, and testing was carried out on it. To speed up the generation, you can lower the "scale_by" parameter to "1" if you just need to quickly check the functionality of the assembly, in this case the generation time will be 55 seconds (at least for me).
 
 ---
 
@@ -79,7 +79,7 @@ Try to follow the rules described here: https://t.me/stable_cascade_rus/47/751 ,
 
 > Launching the browser after the server starts: http://127.0.0.1:8188
 
-> Launching the installed interface: "run_webui.bat"
+Launching the installed interface: "run_webui.bat"
 
 ---
 
