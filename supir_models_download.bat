@@ -10,3 +10,4 @@ wget https://huggingface.co/camenduru/SUPIR/resolve/main/sd_xl_base_1.0_0.9vae.s
 echo -----------------------------
 echo Downloading FINISH
 echo -----------------------------
+pause
