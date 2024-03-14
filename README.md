@@ -87,6 +87,7 @@ https://t.me/stable_cascade_rus
 ---
 
 P.S.
+
 Надеюсь ни у кого не "поднимется язык" сказать, что это "плохая сборка", поскольку никакой "сборки" тут, по, факту просто нет.
 
 I hope no one will "raise their tongue" to say that this is a "bad build", since there is simply no "build" here.
