@@ -77,15 +77,15 @@ Try to follow the rules described here: https://t.me/stable_cascade_rus/47/751 ,
 
 ---
 
-Launching the browser after the server starts: http://127.0.0.1:8188
+> Launching the browser after the server starts: http://127.0.0.1:8188
 
-Launching the installed interface: "run_webui.bat"
+> Launching the installed interface: "run_webui.bat"
 
 ---
 
 После старта интерфейса загрузите в "ComfyUI" файл "supir_workflow.json", а в ноду "Load Image" файл "example.jpg" (из папки "examples")для тестирования.
 
-After starting the interface, upload the "super_workflow.json" file to "ComfyUI", and the "example" file to the "Load Image" node (from the "examples" folder) for testing.
+> After starting the interface, upload the "super_workflow.json" file to "ComfyUI", and the "example" file to the "Load Image" node (from the "examples" folder) for testing.
 
 ---
 
@@ -100,6 +100,6 @@ P.S.
 
 Надеюсь ни у кого не "поднимется язык" сказать, что это "плохая сборка", поскольку никакой "сборки" тут, по, факту просто нет.
 
-I hope no one will "raise their tongue" to say that this is a "bad build", since there is simply no "build" here.
+> I hope no one will "raise their tongue" to say that this is a "bad build", since there is simply no "build" here.
 
 ---
