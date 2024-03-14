@@ -1,43 +1,64 @@
 # ComfyUI-SUPIR-BAT
 
+---
+
 Установочный BAT-файл для сборки "на лету" текущих git-версий "ComfyUI+SUPIR" для карт "NVIDIA"
 
-Installation BAT file for on-the-fly assembly of the current git versions of "ComfyUI+SUPER" for NVIDIA.
+> Installation BAT file for on-the-fly assembly of the current git versions of "ComfyUI+SUPER" for NVIDIA.
+
+---
+
 Этот пакет предназначен для автоматической установки "ComfyUI" и ноды апскейлера "SUPIR" с его моделями.
+
+> This package is designed for automatic installation of "ComfyUI" and the "SUPER" upscale node with its models.
+
+---
 
 Идея сделать что-то "такое" появилась после того, как многие жаловались, что "Не удалось запустить!"...
 
-This package is designed for automatic installation of "ComfyUI" and the "SUPER" upscale node with its models.
+> This package is designed for automatic installation of "ComfyUI" and the "SUPER" upscale node with its models. The idea to do something "like this" appeared after many complained that "It was not possible to launch!"...
 
-The idea to do something "like this" appeared after many complained that "It was not possible to launch!"...
+---
 
 Создайте пустой каталог (к примеру "c:\1") с скопируйте туда все файлы из архива.
 
-Create an empty directory (for example, "c:\1") and copy all files from the archive there.
+> Create an empty directory (for example, "c:\1") and copy all files from the archive there.
+
+---
 
 Потом выполните команду: c:\1> git clone https://github.com/Nestorchik/ComfyUI-SUPIR-BAT.git
 
-Then run the command: c:\1> git clone https://github.com/Nestorchik/ComfyUI-SUPIR-BAT.git
+> Then run the command: c:\1> git clone https://github.com/Nestorchik/ComfyUI-SUPIR-BAT.git
+
+---
 
 Запуск инсталляции дистрибутива "ComfyUI+SUPIR+модели" файлом "install_supir.bat".
 
-Launching the installation of the "ComfyUI+SUPIR+models" distribution kit with the "install_super.bat" file.
+> Launching the installation of the "ComfyUI+SUPIR+models" distribution kit with the "install_super.bat" file.
+
+---
 
 Перед запуском измените значение переменной "python=c:\p31\python.exe" на реальное расположение питона 3.10 версии у вас! GIT-должен быть прописан в PATH!
 
-Before starting, change the value of the variable "python=c:\p31\python.exe" for the real location of python 3.10 version you have! GIT-must be registered in the PATH!
+> Before starting, change the value of the variable "python=c:\p31\python.exe" for the real location of python 3.10 version you have! GIT-must be registered in the PATH!
+
+---
 
 Для повторной инсталляции удалите полностью папку "ComfyUI" !!! (модели только сохраните, чтобы не качать повторно)
 
-To reinstall, completely delete the "ComfyUI" folder (only save the models so as not to download them again)
+> To reinstall, completely delete the "ComfyUI" folder (only save the models so as not to download them again)
+
+---
 
 Установка и сборка происходит автоматически bat-файлом "supir_install.bat", в котором прописаны все команды для скачивания и инсталляции всего, что нужно для работы "SUPIR" под управлением "ComfyUI". Все пакеты питона, и модули скачиваются и копируются на свое место автоматически.
 
-Installation and assembly takes place automatically with the bat file "super_install.bat", which contains all the commands for downloading and installing everything that is needed for "SUPIR" to work under the control of "ComfyUI". All python packages and modules are downloaded and copied to their place automatically.
+> Installation and assembly takes place automatically with the bat file "super_install.bat", which contains all the commands for downloading and installing everything that is needed for "SUPIR" to work under the control of "ComfyUI". All python packages and modules are downloaded and copied to their place automatically.
+
+---
 
 Исключение составляют модели "SUPIR", т.к. их скачивание занимает много времени. Строки скачивания моделей закомментированы как "ECHO", если хотите их скачивать вместе с установкой самого интерфейса, просто раскомментируйте строки, начинающиеся с "ECHO" (все остальные команды "echo" прописаны в нижнем регистре).
 
-The exception is the "SUPER" models, because downloading them takes a long time. The lines for downloading models are commented as "ECHO", if you want to download them together with the installation of the interface itself, just uncomment the lines starting with "ECHO" (all other "echo" commands are written in lowercase).
+> The exception is the "SUPER" models, because downloading them takes a long time. The lines for downloading models are commented as "ECHO", if you want to download them together with the installation of the interface itself, just uncomment the lines starting with "ECHO" (all other "echo" commands are written in lowercase).
 
 ---
 
