@@ -6,6 +6,8 @@ This package is designed for automatic installation of "ComfyUI" and the "SUPER"
 
 This package is designed for automatic installation of "ComfyUI" and the "SUPER" upscale node with its models. The idea to do something "like this" appeared after many complained that "It was not possible to launch!"...
 
+I use git versions of components, something may change when updating them.
+
 Create an empty directory (for example, "c:\1") and copy all files from the archive there.
 
 Then run the command: c:\1> git clone https://github.com/Nestorchik/ComfyUI-SUPIR-BAT.git

@@ -1,4 +1,9 @@
 # ComfyUI-SUPIR-BAT
+---
+
+Я использую git-версии компонентов, при их обновлении что-то может поменяться.
+
+> I use git versions of components, something may change when updating them.
 
 ---
 
@@ -11,6 +16,12 @@
 Этот пакет предназначен для автоматической установки "ComfyUI" и ноды апскейлера "SUPIR" с его моделями.
 
 > This package is designed for automatic installation of "ComfyUI" and the "SUPER" upscale node with its models.
+
+---
+
+Я использую git-версии компонентов, при их обновлении что-то может поменяться.
+
+> I use git versions of components, something may change when updating them.
 
 ---
 
