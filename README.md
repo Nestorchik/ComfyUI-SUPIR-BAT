@@ -1,21 +1,21 @@
 # ComfyUI-SUPIR-BAT
 ---
 
-Я использую git-версии компонентов, при их обновлении что-то может поменяться.
+Установочный BAT-файл для сборки "на лету" текущих git-версий "ComfyUI+SUPIR" для карт "NVIDIA" для ноды версии "v1".
 
-> I use git versions of components, something may change when updating them.
-
----
-
-Установочный BAT-файл для сборки "на лету" текущих git-версий "ComfyUI+SUPIR" для карт "NVIDIA"
-
-> Installation BAT file for on-the-fly assembly of the current git versions of "ComfyUI+SUPER" for NVIDIA.
+> Installation BAT file for on-the-fly assembly of the current git versions of "ComfyUI+SUPER" for NVIDIA for node  "v1".
 
 ---
 
 Этот пакет предназначен для автоматической установки "ComfyUI" и ноды апскейлера "SUPIR" с его моделями.
 
 > This package is designed for automatic installation of "ComfyUI" and the "SUPER" upscale node with its models.
+
+---
+
+Я использую git-версии компонентов, при их обновлении что-то может поменяться.
+
+> I use git versions of components, something may change when updating them.
 
 ---
 

@@ -1,6 +1,6 @@
 # ComfyUI-SUPIR-BAT
 
-Installation BAT file for on-the-fly assembly of the current git versions of "ComfyUI+SUPER" for NVIDIA.
+Installation BAT file for on-the-fly assembly of the current git versions of "ComfyUI+SUPER" for NVIDIA for node "v1".
 
 This package is designed for automatic installation of "ComfyUI" and the "SUPER" upscale node with its models.
 
