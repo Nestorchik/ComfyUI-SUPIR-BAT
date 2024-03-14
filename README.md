@@ -3,20 +3,20 @@
 ---
 
 Установочный BAT-файл для сборки "на лету" текущих git-версий "ComfyUI+SUPIR" для карт "NVIDIA"
-Installation BAT file for on-the-fly assembly of the current git versions of "ComfyUI+SUPER" for NVIDIA.
+
+## Installation BAT file for on-the-fly assembly of the current git versions of "ComfyUI+SUPER" for NVIDIA.
 
 Этот пакет предназначен для автоматической установки "ComfyUI" и ноды апскейлера "SUPIR" с его моделями.
-Идея сделать что-то "такое" появилась после того, как многие жаловались, что "Не удалось запустить!"...
 
----
+## Идея сделать что-то "такое" появилась после того, как многие жаловались, что "Не удалось запустить!"...
 
 This package is designed for automatic installation of "ComfyUI" and the "SUPER" upscale node with its models.
-The idea to do something "like this" appeared after many complained that "It was not possible to launch!"...
 
----
+## The idea to do something "like this" appeared after many complained that "It was not possible to launch!"...
 
 Создайте пустой каталог (к примеру "c:\1") с скопируйте туда все файлы из архива.
-Create an empty directory (for example, "c:\1") and copy all files from the archive there.
+
+## Create an empty directory (for example, "c:\1") and copy all files from the archive there.
 
 Потом выполните команду: c:\1> git clone https://github.com/Nestorchik/ComfyUI-SUPIR-BAT.git
 Then run the command: c:\1> git clone https://github.com/Nestorchik/ComfyUI-SUPIR-BAT.git
