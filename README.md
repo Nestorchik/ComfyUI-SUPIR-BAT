@@ -2,7 +2,7 @@
 
 Supir updated to v.2
 
-![Supir v.2] (https://github.com/Nestorchik/ComfyUI-SUPIR-BAT/blob/main/examples/supir_v2.jpg)
+(To examples added file supir_workflow_v2.json)
 ---
 
 Установочный BAT-файл для сборки "на лету" текущих git-версий "ComfyUI+SUPIR" для карт "NVIDIA" для ноды версии "v1".
