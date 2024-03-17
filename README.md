@@ -1,14 +1,14 @@
 # ComfyUI-SUPIR-BAT
 
 Supir updated to v.2
-
-To examples added file supir_workflow_v2.json
+![New nodes](examples/supir_v2.jpg)
+_To examples added file supir_workflow_v2.json_
 
 ---
 
-Установочный BAT-файл для сборки "на лету" текущих git-версий "ComfyUI+SUPIR" для карт "NVIDIA" для ноды версии "v1".
+Установочный BAT-файл для сборки "на лету" текущих git-версий "ComfyUI+SUPIR" для карт "NVIDIA".
 
-> Installation BAT file for on-the-fly assembly of the current git versions of "ComfyUI+SUPER" for NVIDIA for node "v1".
+> Installation BAT file for on-the-fly assembly of the current git versions of "ComfyUI+SUPER".
 
 ---
 
