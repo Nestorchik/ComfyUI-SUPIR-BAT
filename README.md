@@ -1,5 +1,7 @@
 # ComfyUI-SUPIR-BAT
 
+Supir updated to v.2
+
 ---
 
 Установочный BAT-файл для сборки "на лету" текущих git-версий "ComfyUI+SUPIR" для карт "NVIDIA" для ноды версии "v1".
