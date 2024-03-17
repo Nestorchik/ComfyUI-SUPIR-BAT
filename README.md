@@ -4,7 +4,7 @@ Supir updated to v.2
 
 To examples added file supir_workflow_v2.json
 
-https://github.com/Nestorchik/ComfyUI-SUPIR-BAT/blob/main/examples/supir_v2.jpg?raw=true
+!(/examples/supir_v2.jpg)
 
 ---
 
