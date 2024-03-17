@@ -1,7 +1,6 @@
 # ComfyUI-SUPIR-BAT
-
 Supir updated to v.2
-_examples added file supir_workflow_v2.json_
+  _(examples added file supir_workflow_v2.json)_
 ![New nodes](examples/supir_v2.jpg)
 
 ---
