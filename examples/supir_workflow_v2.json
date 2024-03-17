@@ -1,0 +1,445 @@
+{
+  "last_node_id": 12,
+  "last_link_id": 3,
+  "nodes": [
+    {
+      "id": 6,
+      "type": "SUPIR_sample",
+      "pos": [
+        1348,
+        344
+      ],
+      "size": [
+        446.47303466796893,
+        479.74401260375987
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "SUPIR_model",
+          "type": "SUPIRMODEL",
+          "link": null
+        },
+        {
+          "name": "latents",
+          "type": "LATENT",
+          "link": null
+        },
+        {
+          "name": "positive",
+          "type": "SUPIR_cond_pos",
+          "link": null
+        },
+        {
+          "name": "negative",
+          "type": "SUPIR_cond_neg",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "latent",
+          "type": "LATENT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SUPIR_sample"
+      },
+      "widgets_values": [
+        123,
+        "randomize",
+        45,
+        4,
+        4,
+        5,
+        1.003,
+        1,
+        1,
+        1,
+        -1,
+        false,
+        "RestoreEDMSampler",
+        1024,
+        512
+      ]
+    },
+    {
+      "id": 8,
+      "type": "SUPIR_first_stage",
+      "pos": [
+        952,
+        346
+      ],
+      "size": {
+        "0": 330,
+        "1": 170
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "SUPIR_VAE",
+          "type": "SUPIRVAE",
+          "link": null
+        },
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "SUPIR_VAE",
+          "type": "SUPIRVAE",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "denoised_image",
+          "type": "IMAGE",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "denoised_latents",
+          "type": "LATENT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SUPIR_first_stage"
+      },
+      "widgets_values": [
+        true,
+        512,
+        512,
+        "auto"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "SUPIR_model_loader",
+      "pos": [
+        967,
+        571
+      ],
+      "size": {
+        "0": 315,
+        "1": 150
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "SUPIR_model",
+          "type": "SUPIRMODEL",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "SUPIR_VAE",
+          "type": "SUPIRVAE",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SUPIR_model_loader"
+      },
+      "widgets_values": [
+        "sd_xl_base_1.0_0.9vae.safetensors",
+        "sd_xl_base_1.0_0.9vae.safetensors",
+        false,
+        "auto"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "SUPIR_tiles",
+      "pos": [
+        967,
+        785
+      ],
+      "size": {
+        "0": 315,
+        "1": 122
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image_tiles",
+          "type": "IMAGE",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "tile_size",
+          "type": "INT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "tile_stride",
+          "type": "INT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SUPIR_tiles"
+      },
+      "widgets_values": [
+        512,
+        256
+      ]
+    },
+    {
+      "id": 10,
+      "type": "SUPIR_decode",
+      "pos": [
+        967,
+        961
+      ],
+      "size": {
+        "0": 315,
+        "1": 102
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "SUPIR_VAE",
+          "type": "SUPIRVAE",
+          "link": null
+        },
+        {
+          "name": "latents",
+          "type": "LATENT",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SUPIR_decode"
+      },
+      "widgets_values": [
+        true,
+        512
+      ]
+    },
+    {
+      "id": 9,
+      "type": "SUPIR_encode",
+      "pos": [
+        967,
+        1115
+      ],
+      "size": {
+        "0": 315,
+        "1": 126
+      },
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "SUPIR_VAE",
+          "type": "SUPIRVAE",
+          "link": null
+        },
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "latent",
+          "type": "LATENT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SUPIR_encode"
+      },
+      "widgets_values": [
+        true,
+        512,
+        "auto"
+      ]
+    },
+    {
+      "id": 11,
+      "type": "SUPIR_conditioner",
+      "pos": [
+        1353,
+        879
+      ],
+      "size": [
+        434.76900146484377,
+        360.52005691528325
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "SUPIR_model",
+          "type": "SUPIRMODEL",
+          "link": null
+        },
+        {
+          "name": "latents",
+          "type": "LATENT",
+          "link": null
+        },
+        {
+          "name": "captions",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "captions"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "positive",
+          "type": "SUPIR_cond_pos",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "negative",
+          "type": "SUPIR_cond_neg",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SUPIR_conditioner"
+      },
+      "widgets_values": [
+        "high quality, detailed",
+        "bad quality, blurry, messy",
+        ""
+      ]
+    },
+    {
+      "id": 5,
+      "type": "SUPIR_Upscale",
+      "pos": [
+        1829,
+        352
+      ],
+      "size": [
+        477.1930346679692,
+        891.7600569152833
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "captions",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "captions"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "upscaled_image",
+          "type": "IMAGE",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SUPIR_Upscale"
+      },
+      "widgets_values": [
+        "sd_xl_base_1.0_0.9vae.safetensors",
+        "sd_xl_base_1.0_0.9vae.safetensors",
+        123,
+        "randomize",
+        "lanczos",
+        1,
+        45,
+        -1,
+        4,
+        "high quality, detailed",
+        "bad quality, blurry, messy",
+        5,
+        1.003,
+        1,
+        4,
+        0,
+        "Wavelet",
+        true,
+        true,
+        512,
+        64,
+        "",
+        "auto",
+        "auto",
+        1,
+        false,
+        1024,
+        512,
+        false,
+        false,
+        "RestoreEDMSampler"
+      ]
+    }
+  ],
+  "links": [],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "info": {
+      "name": "workflow",
+      "author": "",
+      "description": "",
+      "version": "1",
+      "created": "2024-03-13T20:53:42.209Z",
+      "modified": "2024-03-13T20:55:18.852Z",
+      "software": "ComfyUI"
+    }
+  },
+  "version": 0.4
+}
