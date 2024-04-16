@@ -1,5 +1,6 @@
 # ComfyUI-SUPIR-BAT
-Surip updated to v.3 - only model files updated
+Surip updated to v.3
+  _(only model files updated)_
 Supir updated to v.2
   _(to examples added file supir_workflow_v2.json)_
 ![New nodes v.2](examples/supir_v2.jpg)
