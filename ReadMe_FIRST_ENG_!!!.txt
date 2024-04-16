@@ -28,6 +28,8 @@ If you already have downloaded models:
 - SUPER-v 0Q.ckpt
 - sd_xl_base_1.0_0.9vae.safetensors
 
+UPD: (links to models v.3 are in a separate file)
+
 ... then just put them in the folder "Config\models\checkpoints" because "SUPER_Upscale" will look for them there!
 
 The installation results from this bat file were tested on the attached "example.jpg" and "super_workflow.json" (folder "examples"), the result is represented by the file "result.jpg" (folder "examples") and is the result of interface testing after installation by this installer. The generation time on the NVIDIA GeForce RTX 2080 Ti (TU 102) card and 64Gb system memory (Intel Core i9-9940X processor) was 1396 seconds (scale_by=2).

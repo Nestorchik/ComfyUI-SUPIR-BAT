@@ -27,6 +27,8 @@ Specify the path to python 3.10 version! GIT should be in the PATH!
 - SUPIR-v0Q.ckpt
 - sd_xl_base_1.0_0.9vae.safetensors
 
+UPD: (ссылки на модели v.3 лежат в отдельном файле)
+
 ... то просто поместите их в папку "ComfyUI\models\checkpoints" т.к. нода "SUPIR_Upscale" будет искать их там!
 
 Результаты установки этого файла тестировались на приложенных файлах "example.jpg" и "supir_workflow_v1.json", результат представлен файлом "result.jpg" и является результатом тестирования интерфейса, проведенного после установки этим инсталлятором. Время генерации на карте "NVIDIA GeForce RTX 2080 Ti (TU102)" и системной памяти 64Gb (процессор "Intel Core i9-9940X") составило 1396 секунд (scale_by=2).
