@@ -95,6 +95,8 @@ Supir updated to v.2
 
 ... то просто поместите их в папку "ComfyUI\models\checkpoints" т.к. нода "SUPIR_Upscale" будет искать их там!
 
+UPD: (ссылки на модели v.3 в отдельном файле)
+
 > If you already have downloaded models:
 
 > - SUPER-v0.kt <--- (for testing, you can download only this model + sd_xl_base_1.0_0.9vae.safetensors)
@@ -103,6 +105,7 @@ Supir updated to v.2
 
 > ... then just put them in the folder "Config\models\checkpoints" because "SUPER_Upscale" will look for them there!
 
+UPD: (links to models v.3 are in a separate file)
 ---
 
 Результаты установки из этого bat-файла тестировались на приложенных файлах "example.jpg" и "supir_workflow_v1.json" (папка "examples"), результат представлен файлом "result.jpg" (папка "examples") и является результатом тестирования интерфейса, проведенного после установки этим инсталлятором. Время генерации на карте "NVIDIA GeForce RTX 2080 Ti (TU102)" и системной памяти 64Gb (процессор "Intel Core i9-9940X") составило 1396 секунд (scale_by=2).
